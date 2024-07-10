@@ -24,28 +24,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-const lightMode = document.getElementById('light-mode');
-const body2 = document.body;
+function submitForm(event)  {
+    event.preventDefault();
 
-
-
-lightMode.addEventListener('click', function() {
-    
-    body.classList.toggle('light-mode');
-
-
-if (body.classList.contains('light-mode')) {
-    localStorage.setItem('mode', 'light');
-} else {
-    localStorage.setItem('mode', 'dark');
+    let formData = new FormData(event.target);
+    let submitForm = formData.get('');
+    alert(`Thank You, ${''}! Form submitted.`);
 }
-});
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    const mode = localStorage.getItem('mode');
-
-    if (mode === 'light') {
-        body.classList.add('light-mode');
-    }
-});
