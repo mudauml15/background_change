@@ -8,16 +8,7 @@ body {
 .dark-mode {
   background-color: black;
   color: white;
-<<<<<<< HEAD
-  
-}
-
-#dark-mode{
-  width: 80px; height: 30px;
-  border-color: red;
-=======
     color: #333333;
->>>>>>> cb75f5537b4ee8c9f4184112b4295277f126b7da
   
 }
 
@@ -26,17 +17,6 @@ body {
   color: black;
 }
 
-<<<<<<< HEAD
-#cont{
-  border-radius: 100px;
-  border-color: aqua;
-}
-
-.tex{
-  width: 200px; height: 30px;
-  border-color: rgb(12, 249, 249);
-  border-radius: 6%;
-=======
 .Container{
   border-radius: 30px; height: 390px; width: 420px;
   background-color: rgb(66, 67, 67);
@@ -61,5 +41,4 @@ body {
   align-items: center;
   margin-left: 160px; width: 100px; height: 30px;
   color:rgb(55, 55, 55) ;
->>>>>>> cb75f5537b4ee8c9f4184112b4295277f126b7da
 }
