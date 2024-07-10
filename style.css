@@ -3,25 +3,28 @@ body {
   background-color: white;
   color: black;
   font-size: 25px;
+  
 }
 
 .dark-mode {
   background-color: black;
   color: white;
-    color: #333333;
+    color: #1f1e1e;
+    height: 46px;
   
 }
 
 .light-mode {
   background-color: white;
   color: black;
+  
 }
 
 .Container{
-  border-radius: 30px; height: 390px; width: 420px;
+  border-radius: 30px; height: 500px; width: 520px;
   background-color: rgb(66, 67, 67);
-  margin-top: 30px;
-  margin-left: 250px;
+  margin-top: 70px;
+  margin-left: 700px;
   
   display: flex;
   align-content: center;
@@ -34,11 +37,20 @@ body {
   border-color: chartreuse;
   background-color: rgb(216, 253, 205);
   cursor: default;
+  margin-top: 20px;
+  margin-right: 35px;
   
 }
 
 .sub{
   align-items: center;
-  margin-left: 160px; width: 100px; height: 30px;
-  color:rgb(55, 55, 55) ;
+  width: 398px; height: 40px;
+  margin-left: 40px;
+  color:rgb(36, 36, 36) ;
+  border-radius: 12px;
+  
+}
+
+.pic{
+  margin-inline-start: 15px;
 }
