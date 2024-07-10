@@ -8,9 +8,27 @@ body {
 .dark-mode {
   background-color: black;
   color: white;
+  
+}
+
+#dark-mode{
+  width: 80px; height: 30px;
+  border-color: red;
+  
 }
 
 .light-mode {
   background-color: white;
   color: black;
+}
+
+#cont{
+  border-radius: 100px;
+  border-color: aqua;
+}
+
+.tex{
+  width: 200px; height: 30px;
+  border-color: rgb(12, 249, 249);
+  border-radius: 6%;
 }
