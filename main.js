@@ -27,17 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
 function submitForm(event)  {
     event.preventDefault();
 
-// let submission = document.getElementById('Disc');
-// submission.innerHTML = darkMode
-// } else {
-
-//     alert("REERI you done");
-
-// });
-
 let formData = new FormData(event.target);
 let submitForm = formData.get('');
 alert(`Thank You, ${''}! Form submitted.`);
-    
+  
+const displaySubmit = () => {
+
+
+submitForm.innerHtml = 'Thank You';
+}
 
 }
